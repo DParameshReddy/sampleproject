@@ -32,6 +32,13 @@
   <build>
     <plugins>
       <plugin>
+        <groupId>io.gatling</groupId>
+        <artifactId>gatling-maven-plugin</artifactId>
+        <configuration>
+          <apiToken>8R3fcd8gjWC.QTZWWdFiK9RbtOsjTVeK3cgO3zWPIUaxcwoNtzi21ZRI6ZPUz1iP1</apiToken>
+        </configuration>
+      </plugin>
+      <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${maven-compiler-plugin.version}</version>
       </plugin>
