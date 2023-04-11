@@ -1,0 +1,8 @@
+RUN	videogamedb.Demoapitest	demoapitest	1679246620991	3	3.9.2
+USER	Demoapitest	START	1679246622975
+REQUEST		getComments	1679246622958	1679246623952	OK	 
+REQUEST		getComments	1679246624123	1679246624390	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679246624397	1679246624609	KO	status.find.is(200), but actually found 304
+REQUEST		getPosts :  0	1679246624620	1679246624803	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  1	1679246624805	1679246625005	OK	 
+USER	Demoapitest	END	1679246625015

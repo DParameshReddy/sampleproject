@@ -1,0 +1,6 @@
+RUN	videogamedb.VideoGameAuthenticate	videogameauthenticate	1679290561893	6	3.9.2
+ERROR	creating a game: Failed to build request: No attribute named 'jwtToken' is defined 	1679290563400
+USER	Authenticate	START	1679290563436
+REQUEST		Authentication to gaming db	1679290563434	1679290563957	OK	 
+REQUEST		Authentication to gaming db Redirect 1	1679290563973	1679290564186	KO	jmesPath(token).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+USER	Authenticate	END	1679290564227

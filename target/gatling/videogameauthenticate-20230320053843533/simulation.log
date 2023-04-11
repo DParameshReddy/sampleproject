@@ -1,0 +1,5 @@
+RUN	videogamedb.VideoGameAuthenticate	videogameauthenticate	1679290723533	6	3.9.2
+ERROR	creating a game: Failed to build request: No attribute named 'jwtToken' is defined 	1679290724964
+USER	Authenticate	START	1679290724991
+REQUEST		Authentication to gaming db	1679290724988	1679290725879	OK	 
+USER	Authenticate	END	1679290726014

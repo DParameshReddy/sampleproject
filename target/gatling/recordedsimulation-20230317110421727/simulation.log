@@ -1,0 +1,9 @@
+RUN	videogamedb.RecordedSimulation	recordedsimulation	1679051061727	etst	3.9.2
+USER	RecordedSimulation	START	1679051062838
+REQUEST		Jsoncheck	1679051062836	1679051063257	OK	 
+REQUEST		second	1679051064414	1679051064552	OK	 
+REQUEST		THIRD - 2	1679051074572	1679051074710	OK	 
+ERROR	fourth - : Failed to build request: No attribute named 'gameid' is defined 	1679051076730
+REQUEST		Fifth	1679051077745	1679051077882	KO	status.find.in([200, 209], 304), found 403
+REQUEST		LAst	1679051078892	1679051079032	KO	status.find.in([200, 209], 304), found 403
+USER	RecordedSimulation	END	1679051079039

@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.RecordedSimulation",
+  "simulationId": "recordedsimulation-20230316170125152",
+  "start": 1678986086903,
+  "description": "jsontesting",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}

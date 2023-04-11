@@ -1,0 +1,5 @@
+RUN	videogamedb.VideoGameAuthenticate	videogameauthenticate	1679290808300	6	3.9.2
+USER	Authenticate	START	1679290809735
+REQUEST		Authentication to gaming db	1679290809733	1679290811459	OK	 
+REQUEST		creating a game	1679290811584	1679290812157	OK	 
+USER	Authenticate	END	1679290812163

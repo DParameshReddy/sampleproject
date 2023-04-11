@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.VideoGameAuthenticate",
+  "simulationId": "videogameauthenticate-20230320054343145",
+  "start": 1679291024620,
+  "description": "6",
+  "scenarios": ["Authenticate"],
+  "assertions": [
+
+  ]
+}

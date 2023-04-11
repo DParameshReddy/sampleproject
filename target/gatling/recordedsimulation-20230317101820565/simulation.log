@@ -1,0 +1,9 @@
+RUN	videogamedb.RecordedSimulation	recordedsimulation	1679048300565	testing	3.9.2
+USER	RecordedSimulation	START	1679048301668
+REQUEST		Jsoncheck	1679048301665	1679048302106	KO	jmesPath([? id == `2`].name).find.is(Gran Turismo 3), but actually found ["Gran Turismo 3"]
+REQUEST		second	1679048303240	1679048303386	OK	 
+REQUEST		THIRD	1679048304394	1679048304539	OK	 
+REQUEST		fourth	1679048306544	1679048306689	KO	status.find.in([200, 209], 304), found 403
+REQUEST		Fifth	1679048307692	1679048307838	KO	status.find.in([200, 209], 304), found 403
+REQUEST		LAst	1679048308850	1679048309000	KO	status.find.in([200, 209], 304), found 403
+USER	RecordedSimulation	END	1679048309005

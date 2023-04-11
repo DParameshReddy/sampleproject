@@ -1,0 +1,8 @@
+RUN	videogamedb.RecordedSimulation	recordedsimulation	1679050788572	test	3.9.2
+USER	RecordedSimulation	START	1679050789947
+REQUEST		Jsoncheck	1679050789945	1679050790389	OK	 
+REQUEST		second	1679050791564	1679050791707	KO	jmesPath([1].id).find.exists, found nothing
+ERROR	fourth - : Failed to build request: No attribute named 'gameid' is defined 	1679050794741
+REQUEST		Fifth	1679050795758	1679050795907	KO	status.find.in([200, 209], 304), found 403
+REQUEST		LAst	1679050796919	1679050797065	KO	status.find.in([200, 209], 304), found 403
+USER	RecordedSimulation	END	1679050797074

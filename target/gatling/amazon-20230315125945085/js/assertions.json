@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.Amazon",
+  "simulationId": "amazon-20230315125945085",
+  "start": 1678885186742,
+  "description": "Amazon",
+  "scenarios": ["Amazon"],
+  "assertions": [
+
+  ]
+}

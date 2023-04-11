@@ -1,0 +1,101 @@
+RUN	videogamedb.Demoapitest	demoapitest	1679287059597	3	3.9.2
+USER	Demoapitest	START	1679287060889
+USER	Demoapitest	START	1679287060890
+USER	Demoapitest	START	1679287060890
+USER	Demoapitest	START	1679287060890
+USER	Demoapitest	START	1679287060890
+USER	Demoapitest	START	1679287060890
+USER	Demoapitest	START	1679287060890
+USER	Demoapitest	START	1679287060890
+USER	Demoapitest	START	1679287060890
+USER	Demoapitest	START	1679287060890
+REQUEST		getComments	1679287060868	1679287060974	OK	 
+REQUEST		getComments	1679287060868	1679287060997	OK	 
+REQUEST		getComments	1679287060868	1679287061023	OK	 
+REQUEST		getComments	1679287060868	1679287060994	OK	 
+REQUEST		getComments	1679287060869	1679287061007	OK	 
+REQUEST		getComments	1679287060869	1679287061020	OK	 
+REQUEST		getComments	1679287060868	1679287061019	OK	 
+REQUEST		getComments	1679287060868	1679287061018	OK	 
+REQUEST		getComments	1679287060868	1679287061023	OK	 
+REQUEST		getComments	1679287060869	1679287060973	OK	 
+REQUEST		getComments	1679287061196	1679287061208	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061197	1679287061207	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061196	1679287061205	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061196	1679287061205	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061196	1679287061210	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061197	1679287061207	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061196	1679287061208	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061196	1679287061208	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061196	1679287061207	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061197	1679287061207	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061217	1679287061226	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061218	1679287061228	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061218	1679287061228	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061217	1679287061228	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061217	1679287061228	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061217	1679287061228	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061217	1679287061231	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061218	1679287061231	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061217	1679287061231	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287061217	1679287061231	KO	status.find.is(200), but actually found 304
+REQUEST		getPosts :  0	1679287065262	1679287065745	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  1	1679287065746	1679287065769	OK	 
+REQUEST		getPosts :  0	1679287065262	1679287065824	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  0	1679287065262	1679287065824	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  0	1679287065263	1679287065824	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  0	1679287065262	1679287065824	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  0	1679287065262	1679287065825	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  0	1679287065263	1679287065826	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  0	1679287065263	1679287065826	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  1	1679287065825	1679287065840	OK	 
+REQUEST		getPosts :  1	1679287065825	1679287065840	OK	 
+REQUEST		getPosts :  1	1679287065826	1679287065840	OK	 
+REQUEST		getPosts :  1	1679287065825	1679287065840	OK	 
+REQUEST		getPosts :  1	1679287065827	1679287065840	OK	 
+REQUEST		getPosts :  1	1679287065825	1679287065840	OK	 
+REQUEST		getPosts :  0	1679287065263	1679287065845	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  1	1679287065827	1679287065845	OK	 
+REQUEST		getPosts :  0	1679287065262	1679287065845	KO	status.find.is(200), but actually found 404
+REQUEST		getPosts :  1	1679287065847	1679287065868	OK	 
+REQUEST		getPosts :  1	1679287065847	1679287065873	OK	 
+REQUEST		getComments	1679287069775	1679287069789	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069792	1679287069810	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069811	1679287069826	KO	status.find.is(200), but actually found 304
+USER	Demoapitest	END	1679287069839
+REQUEST		getComments	1679287069852	1679287069871	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069852	1679287069871	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069852	1679287069871	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069852	1679287069871	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069852	1679287069871	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069852	1679287069871	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069852	1679287069872	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069873	1679287069889	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069872	1679287069889	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069872	1679287069889	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069872	1679287069889	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069872	1679287069889	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069872	1679287069889	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069872	1679287069889	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069882	1679287069900	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069890	1679287069900	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069882	1679287069900	KO	status.find.is(200), but actually found 304
+USER	Demoapitest	END	1679287069901
+REQUEST		getComments	1679287069890	1679287069917	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069901	1679287069917	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069890	1679287069917	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069890	1679287069917	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069891	1679287069917	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069890	1679287069917	KO	status.find.is(200), but actually found 304
+REQUEST		getComments	1679287069890	1679287069918	KO	status.find.is(200), but actually found 304
+USER	Demoapitest	END	1679287069919
+USER	Demoapitest	END	1679287069919
+USER	Demoapitest	END	1679287069919
+USER	Demoapitest	END	1679287069919
+USER	Demoapitest	END	1679287069919
+REQUEST		getComments	1679287069901	1679287069919	KO	status.find.is(200), but actually found 304
+USER	Demoapitest	END	1679287069919
+REQUEST		getComments	1679287069918	1679287069932	KO	status.find.is(200), but actually found 304
+USER	Demoapitest	END	1679287069934
+REQUEST		getComments	1679287069920	1679287069946	KO	status.find.is(200), but actually found 304
+USER	Demoapitest	END	1679287069948
